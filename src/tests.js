@@ -1,3 +1,5 @@
+const app = require('express')();
+
 function print(text){
     console.log(text)
 }
