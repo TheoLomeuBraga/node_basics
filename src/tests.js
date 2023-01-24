@@ -4,7 +4,8 @@ function print(text){
     console.log(text)
 }
 
-hello_world = function(){
-    print("hello world")
-}
-hello_world()
+print("hello world")
+
+app.get("/user",(req, res) => {
+   res.status(200).send('Rota GET!');
+});
