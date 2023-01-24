@@ -6,6 +6,8 @@ function print(text){
 
 print("hello world")
 
-app.get("/user",(req, res) => {
-   res.status(200).send('Rota GET!');
+app.get("/get_a",(req, res) => {
+    res.send("a")
 });
+
+app.listen(3000);
